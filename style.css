@@ -1,0 +1,92 @@
+body {
+    background-color: red;
+}
+
+    background-color: #f0f0f0;  /* light grey background */
+    font-family: Arial, sans-serif;  /* text font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #333;  /* dark text */
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+
+/* Link styling */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+button {
+    background-color: #1a73e8;
+    color: pink;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0c54b8;
+#notes {
+    background-color: #111; /* dark background */
+    color: white; /* text color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#notes h2 {
+    color: #00bfff; /* blue heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.note {
+    background-color: #1a1a1a; /* slightly lighter dark for each note */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.note h3 {
+    color: #ffcc00; /* chapter title in yellow */
+}
+
+.note p {
+    color: #ddd; /* paragraph text in light grey */
+.box {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+/* ✅ Maths Section Color */
+.maths {
+  background-color: #d6ecff;   /* Light Blue */
+  border-left: 5px solid #2196f3;
+}
+
+/* ✅ Science Section Color */
+.science {
+  background-color: #e8ffe8;   /* Light Green */
+  border-left: 5px solid #4caf50;
+}
