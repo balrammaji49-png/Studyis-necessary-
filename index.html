@@ -1,73 +1,89 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <title>Study Helper</title>
-  <link rel="stylesheet" href="style.css">
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Study Is Important</title>
+
   <style>
     body {
-      background-color: indigo;
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #89f7fe, #66a6ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .box {
+      background: white;
+      padding: 30px;
+      margin: 15px;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      animation: pop 1.2s ease;
+    }
+
+    h1, h2, h3 {
+      animation: fadeDown 1.2s ease;
+    }
+
+    p, li {
+      animation: fadeUp 1.5s ease;
+    }
+
+    a {
+      text-decoration: none;
+      color: #66a6ff;
+      font-weight: bold;
+    }
+
+    @keyframes pop {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes fadeDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
   </style>
 </head>
 
-  <header>
-    <h1>📘 Study Helper Website</h1>
+<body>
+
+  <div class="box">
+    <h1>📘 Study Helper</h1>
     <p>Free Notes, MCQs & Important Questions</p>
-  </header>
-
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Notes</a>
-    <a href="#">MCQs</a>
-    <a href="#">Contact</a>
-  </nav>
-
-  <section class="box">
-    <h2>What You Will Get Here</h2>
-    <ul>
-      <li>✅ Class 9 & 10 Notes</li>
-      <li>✅ Mathematics Formulas</li>
-      <li>✅ Science Key Points</li>
-      <li>✅ MCQs for Practice</li>
-    </ul>
-  </section>
-
-  <section class="box">
-    <h2>Start Learning Now</h2>
-    <p>Choose your subject and begin your smart study journey 🚀</p>
-  </section>
-
-  <footer>
-    <p>Made by a Future Tech Entrepreneur 💻</p>
-  </footer>
-
-<section id="notes">
-  <h2>📚 Notes</h2>
-  <div class="note">
-    <h3>Chapter 1: Example Title</h3>
-    <p>This is where you can write the notes for Chapter 1. Keep it short and clear for students.</p>
   </div>
 
-  <div class="note">
-    <h3>Chapter 2: Another Title</h3>
-    <p>Notes for Chapter 2 go here. You can add as many chapters as you want.</p>
-  </div>
-<section id="notes">
-  <h2>📚 Notes</h2>
-  <div class="note">
-    <h3>Chapter 1: real numbers.
-    <p>This is where you can write the notes for Chapter 1. Keep it short and clear for students.</p>
+  <div class="box">
+    <h2>📘 Mathematics</h2>
+    <p><a href="maths.html">Real Numbers – Formulas & Questions</a></p>
   </div>
 
-  <div class="note">
-    <h3>Chapter 2: Another Title</h3>
-    <p>Notes for Chapter 2 go here. You can add as many chapters as you want.</p>
+  <div class="box">
+    <h2>🧪 Science</h2>
+    <p><a href="science.html">Chemical Reactions & Equations</a></p>
   </div>
-</section>
+
+  <div class="box">
+    <h2>📖 Social Science</h2>
+    <p>History • Geography • Civics</p>
+  </div>
+
+  <div class="box">
+    <p>Made by Balram Maji 🚀</p>
+  </div>
+
+</body>
 </html>
-<div class="note">
-    <h3>Chapter 4: Photosynthesis</h3>
-    <p>Photosynthesis is the process by which plants make their own food using sunlight, carbon dioxide, and water.</p>
-</div>
